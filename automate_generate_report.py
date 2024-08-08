@@ -81,8 +81,8 @@ def process_date(driver, date_ip, path, final_path):
 # Selenium setup and login
 driver = webdriver.Chrome()
 login_url = 'https://www.kanopy.com/en/login'
-username = 'username'
-password = 'pass'
+username = input('Enter the username')
+password = input('Enter the password')
 
 # Directory setup
 dates = [
